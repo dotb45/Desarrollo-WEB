@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header, footer, section, aside, nav, article {
+	display: block;
+}
+
+body {
+	margin: 0 auto;
+	padding: 20px; 
+	width: 960px; 
+	font: 14px/24px Calibri, Arial, sans-serif; 
+	background: #e8e8e8; 
+}
+
+h1, h2 {
+	font-size: 32px; 
+	line-height: 48px; 
+	padding: 20px 0;
+	color: #333; 
+}
+
+h3 {
+	font-size: 20px; 
+	line-height: 24px; 
+	padding: 12px 0;
+	color: #555; 
+}
+
+p {
+	padding-bottom: 20px;
+	color: #777; 
+}
+
+
+
+/* MENU DE NAVEGACION */
+nav ul li a {
+	font-size: 16px; 
+	line-height: 50px; 
+	color: #555;
+}
+
+nav ul li a:hover {
+	color: #cc0000; 
+}
+
+/* BANNER ESTATICO */
+#intro {
+	background: #66cc66 
+}
+
+#intro h2 {
+	font-size: 30px; 
+	padding: 10px 0;
+	color: #fff;
+}
+
+#intro p {
+	color: #66cc66; 
+}
+
+/* BARRA LATERAL */
+#content {
+	width: 720px; 
+}
+
+/* CONTENIDO DEL SITIO */
+.blogPost header p, .blogPost header p a {
+	color: #888; 
+}
+
+.blogPost header p a:hover {
+	color: #000; 
+}
+
+/* POST DE USUARIOS */
+#comments article:nth-child(odd) {
+	background: #f0f0f0; 
+}
+
+/* FORMULARIO PARA POST */
+form input[type="submit"] {
+	background-color: #cc0000; 
+	color: #fff; 
+}
+
+/* PIE DE PAGINA */
+footer {
+	background: #333; 
+	color: #999; 
+}
+
+footer h3 {
+	color: #cc0000;
+}
+
+footer a {
+	color: #666; 
+}
+
+footer a:hover {
+	color: #cc0000; 
+}
